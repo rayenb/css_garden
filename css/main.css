@@ -1,12 +1,60 @@
+
 body {
-	margin: 50px 100px;
+    margin: 30px;
 }
-section {
-	background-color: #61D1F1;
+header {
+	padding: 5px;
+	background-color: #63E6FF;
+	color: white;
+}
+h1,h2 {
 	text-align: center;
-	padding: 20px;
 }
-h1 {
+.summary,.benefits {
+	background-color: #E443CF;
+	margin-top: 30px;
 	text-align: center;
-	color: #CC3FD7;
+	padding: 2px;
+	color: white;
+	height: 100px;
 }
+.preamble,.explanation,.participation,.requirements {
+	background-color: #63E6FF;
+	margin-top: 30px;
+	text-align: center;
+	padding: 2px;
+	color: white;
+	width: 580px;
+	height: 250px;
+}
+.participation,.requirements {
+	height: 500px;
+}
+.preamble,.requirements {
+	float: right;
+}
+.preamble>h3 {
+	color: #E443CF;
+}
+.explanation>h3 {
+    color: #E443CF;
+}
+.participation>h3 {
+    color: #E443CF;
+}
+.requirements>h3 {
+    color: #E443CF;
+}
+.requirements{
+	margin-top: -504px;
+}
+a {
+	text-align: center;
+    color: black;
+}
+ 
+
+
+
+
+
